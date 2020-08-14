@@ -1,0 +1,14 @@
+Package: mlr3pyro
+Type: Package
+Title: mlr3 extension for Python-R Oneness
+Version: 0.1.0
+Author: Aaron P. Cooley
+Maintainer: Aaron P. Cooley <aaronsama@gmail.com>
+Description: Creates an interface between mlr3 and Python using the reticulate package 
+  to take advantage of Python-based learners
+License: LGPL (>= 2.1)
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    mlr3,
+    reticulate
